@@ -4,6 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rss-Subscription.Api", "Rss-Subscription\Rss-Subscription.Api\Rss-Subscription.Api.csproj", "{C039AB46-B59B-4991-BADF-267B1BB3B4F2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CDC8DF19-627E-43F5-BA73-C6DE7681FD6E} = {CDC8DF19-627E-43F5-BA73-C6DE7681FD6E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rss-Subscription.BLL", "Rss-Subscription.BLL\Rss-Subscription.BLL.csproj", "{CDC8DF19-627E-43F5-BA73-C6DE7681FD6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rss-Subscription.DataAccess", "Rss-Subscription.DataAcces\Rss-Subscription.DataAccess.csproj", "{3DFC68FE-131F-4C6F-8CCD-E5DF9C39A392}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,14 @@ Global
 		{C039AB46-B59B-4991-BADF-267B1BB3B4F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C039AB46-B59B-4991-BADF-267B1BB3B4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C039AB46-B59B-4991-BADF-267B1BB3B4F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC8DF19-627E-43F5-BA73-C6DE7681FD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC8DF19-627E-43F5-BA73-C6DE7681FD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC8DF19-627E-43F5-BA73-C6DE7681FD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC8DF19-627E-43F5-BA73-C6DE7681FD6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DFC68FE-131F-4C6F-8CCD-E5DF9C39A392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFC68FE-131F-4C6F-8CCD-E5DF9C39A392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFC68FE-131F-4C6F-8CCD-E5DF9C39A392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFC68FE-131F-4C6F-8CCD-E5DF9C39A392}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
